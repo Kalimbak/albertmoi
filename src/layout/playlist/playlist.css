@@ -1,0 +1,26 @@
+.playlist{
+    border-top: 6px solid;
+    border-color: linear-gradient(262.27deg, #A52A2A 38.97%, rgba(165, 42, 42, 0) 74.99%);
+    
+    padding: 4rem 0 0 10rem ;
+}
+
+.playlist__head:first-child{
+    text-align: start;
+}
+
+.h2playlist{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 57px;
+    text-transform: capitalize;
+    margin: 2rem 0 3rem 0;
+}
+
+.color{
+    color: #A52A2A;
+}
+
+.playlist__body{
+
+}

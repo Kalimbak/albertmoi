@@ -1,0 +1,111 @@
+.homecss, .topright,
+.topright__child,
+.toptright__child_down{
+    display: flex;
+}
+
+.homecss{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.font{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.topright{
+    width: 55%;
+    flex-direction: column;
+}
+
+
+.topright__child{
+    background-color:white;
+    color: #952626;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem 2rem 10rem;
+
+    /* width: 70%; */
+    
+}
+
+.logo{
+    padding-top: 2rem;
+}
+
+.frame{
+    margin: 4rem 0 2rem 0;
+    color: white;
+}
+
+.hgroup{
+    text-align:left;
+}
+
+span{
+    color: black;
+    text-align: start;
+}
+
+.topleft{
+    width: 45%;
+}
+
+.h1{
+    font-size: 140px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.zindexx{
+    z-index: 9999;
+    min-width: max-content;
+    position: relative;
+}
+
+.h2{
+    
+    font-size: 60px;
+    margin: 1rem 0;
+}
+
+.topleft__child{
+    background-image: url(../../assets/Albert.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100%;
+}
+
+.toptright__child_down{
+    color: #952626;
+    margin: 5rem 8rem 3rem 10rem;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.param{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px; 
+    text-align: start;
+    margin-bottom: 3rem;
+}
+
+.btn{
+    padding: 1rem 2rem  1rem 2rem;
+    border: 1px solid #8C5B00;
+    color: #8C5B00;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+
+    background-color:black;
+    /* margin-bottom: 2rem; */
+}
+
